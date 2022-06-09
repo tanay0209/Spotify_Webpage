@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Ubuntu','sans-serif';
+}
+body{
+    background-color: antiquewhite;
+}
+header{
+    background: black;
+    display: flex;
+    align-items: center;
+   
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+#logo img{
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    cursor:initial;
+}
+#logo span{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#navbar a{
+    color: white;
+    padding: 14px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#navbar a:hover{
+    background: rgb(9, 139, 28);
+    color: black;
+    border-radius: 24px;
+}
+.container{
+    min-height: 72vh;
+    background: black;
+    color: white;
+    width: 70%;
+    display: flex;
+    padding: 14px;
+    margin: 34px auto;
+    border-radius: 14px;
+    background-image: url('bg.jpg');
+}
+.container h1{
+    font-size: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.bottom{
+    position: sticky;
+    background: black;
+    color: white;
+    height: 100px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon i{
+    margin: 0px 5px;
+    margin-top: 10px;
+}
+#MyprogressBar{
+    margin-top: 20px;
+    width: 80vw;
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-size: 15px;
+    font-weight: bolder
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+.songItem{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    background: white;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 0px;
+    border-radius: 24px;
+}
+.songItem img{
+    width: 43px;
+    margin: 0px 23px;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 0px 24px;
+}
+.timestamp i{
+    margin-left: 10px;
+}
